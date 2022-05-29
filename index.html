@@ -8,7 +8,11 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-3K0JSMDGEV');
+        gtag('config', 'G-3K0JSMDGEV', {
+          'user_id': 'my_user_id',
+          'undef_dim': '12345',
+          'my_custom_dimension': 'my_custom_value'
+        });
     </script>
   </head>
   <body>
